@@ -210,4 +210,6 @@ displayTasks();
 flatpickr("#dueDate", {
   dateFormat: "Y-m-d",
   minDate: "today",
+  allowInput: false,
+  disableMobile: true,
 });
