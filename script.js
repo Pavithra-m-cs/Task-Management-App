@@ -206,3 +206,8 @@ priority.value = "";
 dueDate.value = "";
 
 displayTasks();
+
+flatpickr("#dueDate", {
+  dateFormat: "Y-m-d",
+  minDate: "today",
+});

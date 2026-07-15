@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task Management App</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -31,10 +35,7 @@
             <option value="Low">Low</option>
           </select>
 
-          <div class="date-field">
-            <label for="dueDate">📅 Due Date</label>
-            <input type="date" id="dueDate" />
-          </div>
+          <input type="text" id="dueDate" placeholder="📅 Select Date" />
         </div>
 
         <button id="addTaskBtn">Add Task</button>
@@ -68,6 +69,7 @@
       </section>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="script.js"></script>
   </body>
 </html>
